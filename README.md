@@ -1,2 +1,0 @@
-# spudclick
-potato clicking adventure
