@@ -1,0 +1,44 @@
+body {
+    background: url('space5.jpg');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: "verdana";
+    color: lightyellow;
+}
+
+h2 {
+    font-size: 60px;
+    font-family: "verdana";
+    color: lightyellow;
+}
+
+p {
+    font-size: 100px;
+    font-family: "verdana";
+    color: lightyellow;
+    text-align: center;
+}
+
+.butt {
+    background: url('potato1.png') no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    border: none;
+    cursor: pointer;
+
+    outline: none;
+}
+
+.butt:active {
+    background: url('potato2.png') no-repeat;
+    background-size: contain;
+    transform: scale(1.1);
+}
